@@ -1,0 +1,2648 @@
+.bg-white {
+    background-color: #FFF
+}
+
+.bg-grey {
+    background-color: #F2F2F6
+}
+
+.bg-dark {
+    background-color: #31323D;
+    color: #D3D4DE
+}
+
+.bg-dark H1,
+.bg-dark H2,
+.bg-dark H3,
+.bg-dark H4,
+.bg-dark H5 {
+    color: #FFF
+}
+
+.bg-dark P {
+    color: #D3D4DE
+}
+
+.bg-darker {
+    background-color: #1c2334;
+    color: #FFF
+}
+
+.bg-darker H1,
+.bg-darker H2,
+.bg-darker H3,
+.bg-darker H4,
+.bg-darker H5 {
+    color: #FFF
+}
+
+.bg-darker P {
+    color: #FFF
+}
+
+.bg-darkblue {
+    background-color: #2D364C;
+    color: #D3D4DE
+}
+
+.bg-darkblue H1,
+.bg-darkblue H2,
+.bg-darkblue H3,
+.bg-darkblue H4,
+.bg-darkblue H5 {
+    color: #FFF
+}
+
+.bg-darkblue P {
+    color: #D3D4DE
+}
+
+.bg-purple {
+    background-color: #6534AC;
+    color: #D3D4DE
+}
+
+.bg-purple H1,
+.bg-purple H2,
+.bg-purple H3,
+.bg-purple H4,
+.bg-purple H5 {
+    color: #FFF
+}
+
+.bg-purple P {
+    color: #D3D4DE
+}
+
+.bg-lightpurple {
+    background-color: #8050ff;
+    color: #D3D4DE
+}
+
+.bg-lightpurple H1,
+.bg-lightpurple H2,
+.bg-lightpurple H3,
+.bg-lightpurple H4,
+.bg-lightpurple H5 {
+    color: #FFF
+}
+
+.bg-lightpurple P {
+    color: #D3D4DE
+}
+
+.bg-orange {
+    background-color: #FF9000;
+    color: #000
+}
+
+.bg-orange H1,
+.bg-orange H2,
+.bg-orange H3,
+.bg-orange H4,
+.bg-orange H5 {
+    color: #2d364c
+}
+
+.bg-orange P {
+    color: #000
+}
+
+.bg-blue {
+    background-color: #283055;
+    color: #FFF
+}
+
+.bg-blue H1,
+.bg-blue H2,
+.bg-blue H3,
+.bg-blue H4,
+.bg-blue H5 {
+    color: #FFF
+}
+
+.bg-blue P {
+    color: #FFF
+}
+
+.bg-green {
+    background-color: #14be5b;
+    color: #FFF
+}
+
+.bg-green H1,
+.bg-green H2,
+.bg-green H3,
+.bg-green H4,
+.bg-green H5 {
+    color: #FFF
+}
+
+.bg-green P {
+    color: #FFF
+}
+
+.bg-grainy {
+    background-image: url("https://atpsoftware.vn/wp-content/themes/i/smb/bg-grainy.png")
+}
+
+.clear:after {
+    display: block;
+    clear: both;
+    content: ''
+}
+
+.nomargin {
+    margin: 0
+}
+
+.nomargin_top {
+    margin-top: 0
+}
+
+p.nomargin_top {
+    margin-top: 0
+}
+
+.nomargin_bottom {
+    margin-bottom: 0
+}
+
+p.nomargin_bottom {
+    margin-bottom: 0
+}
+
+.section {
+    padding: 120px 0
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        padding: 70px 0
+    }
+}
+
+.section_bottom-padding {
+    padding: 0 0 120px 0
+}
+
+@media only screen and (max-width: 767px) {
+    .section_bottom-padding {
+        padding: 0 0 70px 0
+    }
+}
+
+.section_top-padding {
+    padding: 120px 0 0 0
+}
+
+@media only screen and (max-width: 767px) {
+    .section_top-padding {
+        padding: 70px 0 0 0
+    }
+}
+
+img {
+    max-width: 100%
+}
+
+.text-center {
+    text-align: center
+}
+
+.text-left {
+    text-align: left
+}
+
+.text-right {
+    text-align: right
+}
+
+.text-green {
+    color: #00D9BD
+}
+
+.text-orange {
+    color: #FF9933
+}
+
+.text-purple {
+    color: #7341d6
+}
+
+.text-red {
+    color: #DA2C2C
+}
+
+.text-yellow {
+    color: #F8B700
+}
+
+.vertical-center:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle
+}
+
+.vertical-center>* {
+    display: inline-block;
+    margin-left: -5px;
+    vertical-align: middle
+}
+
+.align-center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+@media only screen and (min-width: 1056px),
+only screen and (min-width: 768px) and (max-width: 1055px) {
+    .row.switch>div:first-child {
+        text-align: right
+    }
+}
+
+h2 {
+    font-size: 46px;
+    margin-bottom: 50px
+}
+
+.subh2 {
+    margin-bottom: 60px
+}
+
+.subh2_less-margin {
+    margin-bottom: 30px
+}
+
+h3 {
+    margin-bottom: 30px
+}
+
+span.header {
+    display: block;
+    padding-bottom: 25px;
+    color: #575E70;
+    font-size: 32px;
+    font-weight: bold
+}
+
+span.header_large {
+    padding-bottom: 30px;
+    font-size: 46px
+}
+
+span.header_small {
+    padding-bottom: 15px;
+    font-size: 26px
+}
+
+span.subheader {
+    display: block;
+    color: #90909C;
+    font-size: 16px
+}
+
+span.subheader_huge {
+    font-size: 22px
+}
+
+span.subheader_large {
+    font-size: 20px
+}
+
+span.subheader_thick {
+    font-weight: 300
+}
+
+.header-download,
+.js-header-button {
+    display: none !important
+}
+
+.hero-banner {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat
+}
+
+.hero-banner .AVsizer {
+    min-height: 615px;
+    padding: 60px 0
+}
+
+.hero-banner_absolute-center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.hero-banner_absolute-center .AVsizer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    resize: vertical;
+    width: 100%;
+    text-align: center
+}
+
+.hero-banner h1 {
+    padding: 0 0 40px;
+    font-size: 56px
+}
+
+@media only screen and (max-width: 767px) {
+    .hero-banner h1 {
+        font-size: 50px;
+        word-wrap: break-word
+    }
+}
+
+.hero-banner p.subh1 {
+    padding: 0 0 30px
+}
+
+#top {
+    position: relative
+}
+
+.slide-down {
+    position: absolute;
+    left: -webkit-calc(50% - 30px);
+    left: -moz-calc(50% - 30px);
+    left: calc(50% - 30px);
+    bottom: 0
+}
+
+.slide-down__arrow-box {
+    position: absolute;
+    z-index: 10;
+    bottom: -29px;
+    display: block;
+    -webkit-box-shadow: 0 4px 12px 0 rgba(167, 167, 167, 0.5);
+    -moz-box-shadow: 0 4px 12px 0 rgba(167, 167, 167, 0.5);
+    box-shadow: 0 4px 12px 0 rgba(167, 167, 167, 0.5);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    -o-background-clip: padding-box;
+    background-clip: padding-box;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #FFF;
+    text-align: center
+}
+
+.slide-down__arrow-box span {
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 22px;
+    display: block;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-right: 2px solid #8831fc;
+    border-bottom: 2px solid #8831fc;
+    width: 15px;
+    height: 15px
+}
+
+@media only screen and (max-width: 767px) {
+    .slide-down {
+        display: none
+    }
+}
+
+.label-sticker {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    padding: 7px 14px 7px;
+    background-image: url("https://atpsoftware.vn/wp-content/themes/i/smb/svg/label-green.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FFF
+}
+
+.label-sticker_big {
+    font-size: 22px;
+    padding: 13px 28px 13px
+}
+
+.label-sticker_small {
+    font-size: 9px;
+    padding: 5px 13px 5px
+}
+
+.label-sticker_margin-left {
+    margin: 0 0 0 10px
+}
+
+.label-sticker_green {
+    background-image: url("https://atpsoftware.vn/wp-content/themes/i/smb/svg/label-green.svg")
+}
+
+.label-sticker_grey {
+    background-image: url("https://atpsoftware.vn/wp-content/themes/i/smb/svg/label-grey.svg")
+}
+
+.label-sticker_orange {
+    background-image: url("https://atpsoftware.vn/wp-content/themes/i/smb/svg/label-orange.svg")
+}
+
+.label-sticker_purple {
+    background-image: url("https://atpsoftware.vn/wp-content/themes/i/smb/svg/label-purple.svg")
+}
+
+.stripe {
+    width: 100%;
+    padding: 20px 0 16px 0
+}
+
+.stripe span {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: bold
+}
+
+.stripe_purple {
+    background: #6534AC !important
+}
+
+.intro-features__title {
+    margin-bottom: 15px !important;
+    font-size: 26px !important
+}
+
+.intro-features__title a {
+    text-decoration: underline
+}
+
+@media only screen and (min-width: 1056px) {
+    .intro-features__title::before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        left: -50px;
+        width: 33px;
+        height: 35px;
+        background-image: url("https://atpsoftware.vn/wp-content/themes/i/smb/svg/checkmarks.svg");
+        background-position: -19px -17px
+    }
+    .intro-features__title_green::before {
+        background-position: -69px -17px
+    }
+    .intro-features__title_orange::before {
+        background-position: -119px -17px
+    }
+}
+
+.intro-features p {
+    font-size: 18px;
+    margin-bottom: 30px
+}
+
+.intro-features__svg-cls-1,
+.intro-features__svg-cls-2 {
+    -webkit-animation-name: scaleAnim;
+    -moz-animation-name: scaleAnim;
+    -o-animation-name: scaleAnim;
+    animation-name: scaleAnim;
+    -webkit-animation-duration: 4s;
+    -moz-animation-duration: 4s;
+    -o-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center
+}
+
+.intro-features__svg-image {
+    -webkit-animation-name: moveAnim;
+    -moz-animation-name: moveAnim;
+    -o-animation-name: moveAnim;
+    animation-name: moveAnim;
+    -webkit-animation-duration: 5s;
+    -moz-animation-duration: 5s;
+    -o-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear
+}
+
+@-webkit-keyframes scaleAnim {
+    0% {
+        -webkit-transform: scale(1) translateZ(0);
+        transform: scale(1) translateZ(0)
+    }
+    50% {
+        -webkit-transform: scale(.95) translateZ(0);
+        transform: scale(.95) translateZ(0)
+    }
+    100% {
+        -webkit-transform: scale(1) translateZ(0);
+        transform: scale(1) translateZ(0)
+    }
+}
+
+@-moz-keyframes scaleAnim {
+    0% {
+        -moz-transform: scale(1) translateZ(0);
+        transform: scale(1) translateZ(0)
+    }
+    50% {
+        -moz-transform: scale(.95) translateZ(0);
+        transform: scale(.95) translateZ(0)
+    }
+    100% {
+        -moz-transform: scale(1) translateZ(0);
+        transform: scale(1) translateZ(0)
+    }
+}
+
+@-o-keyframes scaleAnim {
+    0% {
+        transform: scale(1) translateZ(0)
+    }
+    50% {
+        transform: scale(.95) translateZ(0)
+    }
+    100% {
+        transform: scale(1) translateZ(0)
+    }
+}
+
+@keyframes scaleAnim {
+    0% {
+        -webkit-transform: scale(1) translateZ(0);
+        -moz-transform: scale(1) translateZ(0);
+        transform: scale(1) translateZ(0)
+    }
+    50% {
+        -webkit-transform: scale(.95) translateZ(0);
+        -moz-transform: scale(.95) translateZ(0);
+        transform: scale(.95) translateZ(0)
+    }
+    100% {
+        -webkit-transform: scale(1) translateZ(0);
+        -moz-transform: scale(1) translateZ(0);
+        transform: scale(1) translateZ(0)
+    }
+}
+
+@-webkit-keyframes moveAnim {
+    0% {
+        -webkit-transform: translate(250px, 180px) translateZ(0);
+        transform: translate(250px, 180px) translateZ(0)
+    }
+    50% {
+        -webkit-transform: translate(240px, 180px) translateZ(0);
+        transform: translate(240px, 180px) translateZ(0)
+    }
+    100% {
+        -webkit-transform: translate(250px, 180px) translateZ(0);
+        transform: translate(250px, 180px) translateZ(0)
+    }
+}
+
+@-moz-keyframes moveAnim {
+    0% {
+        -moz-transform: translate(250px, 180px) translateZ(0);
+        transform: translate(250px, 180px) translateZ(0)
+    }
+    50% {
+        -moz-transform: translate(240px, 180px) translateZ(0);
+        transform: translate(240px, 180px) translateZ(0)
+    }
+    100% {
+        -moz-transform: translate(250px, 180px) translateZ(0);
+        transform: translate(250px, 180px) translateZ(0)
+    }
+}
+
+@-o-keyframes moveAnim {
+    0% {
+        transform: translate(250px, 180px) translateZ(0)
+    }
+    50% {
+        transform: translate(240px, 180px) translateZ(0)
+    }
+    100% {
+        transform: translate(250px, 180px) translateZ(0)
+    }
+}
+
+@keyframes moveAnim {
+    0% {
+        -webkit-transform: translate(250px, 180px) translateZ(0);
+        -moz-transform: translate(250px, 180px) translateZ(0);
+        transform: translate(250px, 180px) translateZ(0)
+    }
+    50% {
+        -webkit-transform: translate(240px, 180px) translateZ(0);
+        -moz-transform: translate(240px, 180px) translateZ(0);
+        transform: translate(240px, 180px) translateZ(0)
+    }
+    100% {
+        -webkit-transform: translate(250px, 180px) translateZ(0);
+        -moz-transform: translate(250px, 180px) translateZ(0);
+        transform: translate(250px, 180px) translateZ(0)
+    }
+}
+
+body[class*="mod-fr-"] .c-comparison-table__buttons td .button span {
+    font-size: 11px;
+    line-height: 20px
+}
+
+@media only screen and (max-width: 486px) {
+    body[class*="mod-fr-"] .c-comparison-table__buttons td .button span {
+        font-size: 8px
+    }
+}
+
+.c-comparison-table {
+    position: relative;
+    margin: 0 auto 0;
+    border-collapse: collapse;
+    width: 100%
+}
+
+.c-comparison-table .c1,
+.c-comparison-table .c2,
+.c-comparison-table .c3,
+.c-comparison-table .cn {
+    background: #f9f9fd;
+    border-left: 15px solid #FFF !important;
+    text-align: center
+}
+
+.c-comparison-table .c1.inactive,
+.c-comparison-table .c2.inactive,
+.c-comparison-table .c3.inactive,
+.c-comparison-table .cn.inactive {
+    opacity: .2;
+    pointer-events: none
+}
+
+.c-comparison-table tr:last-child td {
+    padding-bottom: 50px
+}
+
+.c-comparison-table__head td {
+    padding-top: 20px
+}
+
+.c-comparison-table__head td.c1 {
+    background: url("https://atpsoftware.vn/wp-content/themes/jnews-child/template/wp-content/themes/jnews-child/template/img/column-green.png") no-repeat #f9f9fd
+}
+
+.c-comparison-table__head td.c2 {
+    background: url("https://atpsoftware.vn/wp-content/themes/jnews-child/template/wp-content/themes/jnews-child/template/img/column-purple.png") no-repeat #f9f9fd
+}
+
+.c-comparison-table__head td.c3 {
+    background: url("https://atpsoftware.vn/wp-content/themes/jnews-child/template/wp-content/themes/jnews-child/template/img/column-orange.png") no-repeat #f9f9fd
+}
+
+.c-comparison-table__head td.cn {
+    background: url("https://atpsoftware.vn/wp-content/themes/jnews-child/template/wp-content/themes/jnews-child/template/img/column-grey.png") no-repeat #f9f9fd
+}
+
+.c-comparison-table__best>div {
+    position: relative
+}
+
+.c-comparison-table__best b {
+    font-size: 12px;
+    text-transform: uppercase
+}
+
+.c-comparison-table__best.c1 {
+    color: #108743
+}
+
+.c-comparison-table__best.c2 {
+    color: #8758ff
+}
+
+.c-comparison-table__best.c3 {
+    color: #ff7800
+}
+
+.c-comparison-table__best.cn {
+    color: #727888
+}
+
+.c-comparison-table__best_mac {
+    display: none
+}
+
+.c-comparison-table__products {
+    vertical-align: baseline
+}
+
+.c-comparison-table__products img {
+    margin: 20px auto 2px auto
+}
+
+.c-comparison-table__products b {
+    display: block
+}
+
+.c-comparison-table__products a {
+    color: #90909C;
+    font-size: 16px
+}
+
+.c-comparison-table__products a:hover {
+    color: #727888
+}
+
+.c-comparison-table__products a:hover svg {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 5px
+}
+
+.c-comparison-table__products_padding-top td {
+    padding-top: 35px
+}
+
+.c-comparison-table__products_padding-top td svg,
+.c-comparison-table__products_padding-top td img {
+    margin-bottom: 10px
+}
+
+.c-comparison-table__icon svg,
+.c-comparison-table__icon object {
+    display: block;
+    margin: 10px auto;
+    width: 50px;
+    height: 50px;
+    fill: currentColor
+}
+
+.c-comparison-table__icon_bus {
+    color: #14be5b;
+    fill: #14be5b
+}
+
+.c-comparison-table__icon_bug {
+    color: #7341d6;
+    fill: #7341d6
+}
+
+.c-comparison-table__icon_bup {
+    color: #FF7800;
+    fill: #FF7800
+}
+
+.c-comparison-table__buttons .c1,
+.c-comparison-table__buttons .c2,
+.c-comparison-table__buttons .c3 {
+    padding: 25px 10px
+}
+
+.c-comparison-table__buttons .button span {
+    min-width: 140px!important;
+    padding: 14px 12px 12px!important;
+    font-size: 16px!important;
+    line-height: 26px!important
+}
+
+.c-comparison-table__text td {
+    padding: 0 10px 25px 10px!important;
+    color: #575E70!important
+}
+
+.c-comparison-table__feature~.c-comparison-table__feature::after {
+    height: 1px!important;
+    background: #ececf2!important;
+    display: block!important;
+    content: " "!important;
+    width: 100%!important;
+    left: 0!important;
+    position: absolute!important
+}
+
+.c-comparison-table__feature[data-platform="macOs"] {
+    display: none
+}
+
+.c-comparison-table__feat-txt {
+    padding: 15px 0 5px 4px;
+    vertical-align: bottom;
+    font-size: 14px
+}
+
+.c-comparison-table__feat-txt b {
+    display: block;
+    font-size: 16px;
+    color: #000
+}
+
+.c-comparison-table__feat-val {
+    width: 19.2%
+}
+
+.c-comparison-table__prices td {
+    font-size: 14px
+}
+
+.c-comparison-table__trial {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px
+}
+
+.c-comparison-table__price {
+    display: block
+}
+
+.c-comparison-table__price_regular {
+    text-decoration: line-through
+}
+
+.c-comparison-table__price_current {
+    font-size: 21px;
+    color: #41424e
+}
+
+.c-comparison-table__note {
+    padding-left: 0;
+    font-size: 14px
+}
+
+.c-comparison-table__note a {
+    text-decoration: underline;
+    color: #90909C
+}
+
+.c-comparison-table__foot::after {
+    height: 1px;
+    background: #ececf2;
+    display: block;
+    content: " ";
+    width: 100%;
+    left: 0;
+    position: absolute
+}
+
+.c-comparison-table__foot td {
+    padding-top: 20px
+}
+
+.c-comparison-table__foot .c-comparison-table__best {
+    padding: 35px 0 15px 0
+}
+
+.c-comparison-table__showmore {
+    vertical-align: text-top
+}
+
+.c-comparison-table__showmore span {
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #0087ff
+}
+
+.c-comparison-table__showmore span:hover {
+    color: #005199
+}
+
+.c-comparison-table .c-tooltip {
+    margin-left: 3px;
+    cursor: pointer
+}
+
+.c-comparison-table .c-tooltip__content {
+    visibility: hidden;
+    background: #f9f9fd;
+    left: 0;
+    width: 100%;
+    color: #90909C;
+    margin-top: 20px;
+    padding: 15px 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: absolute;
+    z-index: 1;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.52);
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.52)
+}
+
+.c-comparison-table .c-tooltip:hover>span {
+    visibility: visible
+}
+
+.c-comparison-table .c-tooltip_item-desc {
+    display: none;
+    position: absolute;
+    top: 40px;
+    width: 300px;
+    margin-left: -50px;
+    padding: 30px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #FFF;
+    background-color: #2D364C;
+    z-index: 10
+}
+
+.c-comparison-table .c-tooltip_item-desc:after {
+    bottom: 100%;
+    left: 59px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(45, 54, 76, 0);
+    border-bottom-color: #2D364C;
+    border-width: 7px;
+    margin-left: -7px
+}
+
+.c-comparison-table .c-tooltip_item-icon {
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    height: 18px;
+    width: 18px;
+    margin-left: 10px;
+    font-weight: 400;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #FFF;
+    background-color: #D3D4DE;
+    cursor: pointer
+}
+
+.c-comparison-table .c-tooltip_item-icon:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 7px;
+    right: 0;
+    left: 0;
+    width: 2px;
+    height: 6px;
+    background-color: #FFF;
+    margin: auto
+}
+
+.c-comparison-table .c-tooltip_item-icon:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 4px;
+    right: 0;
+    left: 0;
+    width: 2px;
+    height: 2px;
+    background-color: #FFF;
+    margin: auto
+}
+
+.c-comparison-table .c-tooltip_item-icon:hover {
+    background-color: #2D364C
+}
+
+.c-comparison-table .c-tooltip_item-icon:hover>span {
+    display: block
+}
+
+@media only screen and (max-width: 767px),
+only screen and (min-width: 768px) and (max-width: 1055px) {
+    .c-comparison-table .c-tooltip_item-icon {
+        display: none
+    }
+}
+
+.c-comparison-table .c-tick {
+    height: 100%;
+    width: 100%;
+    display: table
+}
+
+.c-comparison-table .c-tick b:before {
+    background-color: #cecece;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    content: '';
+    height: 10px;
+    display: block;
+    margin: 0 auto;
+    top: auto;
+    width: 10px;
+    z-index: 99
+}
+
+.c-comparison-table .c-tick b {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 0;
+    letter-spacing: -1px;
+    color: transparent
+}
+
+.c-comparison-table .c-tick_yes b:before {
+    background-color: #323a4f
+}
+
+.c-comparison-table .c-label {
+    min-width: 60px;
+    background: #aaa;
+    padding: 6px 12px;
+    position: relative;
+    top: -2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    -o-background-clip: padding-box;
+    background-clip: padding-box;
+    font-size: 11px;
+    text-transform: uppercase
+}
+
+.c-comparison-table .c-label_green {
+    background: #0cb754;
+    color: #FFF
+}
+
+.c-comparison-table.feat-only .c-comparison-table__products td b {
+    margin-bottom: 15px
+}
+
+.c-comparison-table.feat-only tr:last-child td {
+    padding-bottom: 0
+}
+
+@media only screen and (max-width: 767px) {
+    .c-comparison-table {
+        width: 100% !important
+    }
+    .c-comparison-table tr {
+        position: relative
+    }
+    .c-comparison-table tr:before,
+    .c-comparison-table tr:after {
+        content: "";
+        display: table;
+        line-height: 0
+    }
+    .c-comparison-table td {
+        float: left;
+        border-right: 0;
+        height: auto;
+        width: 33.33%
+    }
+    .c-comparison-table td.cn {
+        width: 25%
+    }
+    .c-comparison-table td.cn+td.c1 {
+        width: 25%
+    }
+    .c-comparison-table td.cn+td.c1+td.c2 {
+        width: 25%
+    }
+    .c-comparison-table td.cn+td.c1+td.c2+td.c3 {
+        width: 25%
+    }
+    .c-comparison-table td.c0 {
+        display: none;
+        width: 0
+    }
+    .c-comparison-table .c1,
+    .c-comparison-table .c2,
+    .c-comparison-table .c3,
+    .c-comparison-table .cn {
+        border-left: 3px solid #FFF;
+        border-right: 3px solid #FFF
+    }
+    .c-comparison-table__head td {
+        padding-top: 10px;
+        background: #f9f9fd !important
+    }
+    .c-comparison-table__head td.c1 div {
+        border-top: 5px solid #108743
+    }
+    .c-comparison-table__head td.c2 div {
+        border-top: 5px solid #8758ff
+    }
+    .c-comparison-table__head td.c3 div {
+        border-top: 5px solid #ff7800
+    }
+    .c-comparison-table__products {
+        background: #f9f9fd
+    }
+    .c-comparison-table__products img {
+        margin: 5px auto 2px auto
+    }
+    .c-comparison-table__feat-txt,
+    .c-comparison-table__showmore {
+        position: relative;
+        width: 100% !important;
+        padding: 15px 0 5px 0 !important;
+        text-align: left
+    }
+    .c-comparison-table__feat-val {
+        height: 40px !important
+    }
+    .c-comparison-table__buttons td {
+        padding: 25px 0
+    }
+    .c-comparison-table__buttons td .button span {
+        min-width: 0;
+        font-size: 12px;
+        line-height: 22px
+    }
+    .c-comparison-table__note {
+        display: none
+    }
+    .c-comparison-table .c-tooltip {
+        display: none
+    }
+}
+
+.c-comparison-table_simple .c-comparison-table__products img {
+    padding: 10px 0
+}
+
+.c-comparison-table_simple .c-comparison-table__price {
+    display: inline-block
+}
+
+.c-comparison-table_simple .c-comparison-table__buttons td {
+    padding: 25px 10px 10px 10px
+}
+
+.bg-grey .c-comparison-table .c1,
+.bg-grey .c-comparison-table .c2,
+.bg-grey .c-comparison-table .c3,
+.bg-grey .c-comparison-table .cn {
+    background: #FFF;
+    border-left: 15px solid #F2F2F6
+}
+
+.bg-grey .c-comparison-table b {
+    color: #575E70
+}
+
+.c-comparison-nav {
+    margin: 0 0 100px 0;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px 0
+}
+
+.c-comparison-nav__platform {
+    display: inline-block;
+    padding: 10px 50px 10px 90px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: lighter;
+    color: #767683
+}
+
+.c-comparison-nav__platform:nth-child(even) {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.c-comparison-nav__platform::before {
+    content: " ";
+    position: absolute;
+    display: inline-block;
+    margin: -9px 0 0 -65px;
+    width: 50px;
+    height: 38px;
+    background: url("https://atpsoftware.vn/wp-content/themes/jnews-child/img/platform-icons.png") no-repeat;
+    background-position: -3px -12px
+}
+
+.c-comparison-nav__platform_macOs::before {
+    background-position: -48px -11px
+}
+
+.c-comparison-nav__platform_winServer::before {
+    background-position: -97px -11px
+}
+
+.c-comparison-nav__platform span::after {
+    content: attr(title);
+    display: block;
+    height: 1px;
+    font-weight: 700;
+    color: transparent;
+    overflow: hidden;
+    visibility: hidden
+}
+
+.c-comparison-nav__platform_active,
+.c-comparison-nav__platform:hover {
+    font-weight: 700;
+    color: #ff7800
+}
+
+.c-comparison-nav__platform_active::before,
+.c-comparison-nav__platform:hover::before {
+    background-position: -3px -57px
+}
+
+.c-comparison-nav__platform_macOs.c-comparison-nav__platform_active::before,
+.c-comparison-nav__platform_macOs:hover::before {
+    background-position: -48px -57px
+}
+
+.c-comparison-nav__platform_winServer.c-comparison-nav__platform_active::before,
+.c-comparison-nav__platform_winServer:hover::before {
+    background-position: -97px -57px
+}
+
+.c-comparison-nav__wrap {
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1055px),
+only screen and (max-width: 767px) {
+    .c-comparison-nav__platform {
+        padding: 10px 20px 10px 60px
+    }
+    .c-comparison-nav__platform:nth-child(even) {
+        border: none
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .c-comparison-nav {
+        padding: 15px 0
+    }
+    .c-comparison-nav__platform {
+        display: block;
+        padding: 20px 0 20px 40px
+    }
+}
+
+.c-comparison-sticky {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+    background: #f9f9fd
+}
+
+.c-comparison-sticky .c-comparison-sticky__platforms {
+    text-align: center
+}
+
+.c-comparison-sticky .c-comparison-nav__platform {
+    display: inline-block;
+    padding: 0;
+    text-align: center
+}
+
+.c-comparison-sticky .c-comparison-nav__platform_active::after {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    display: block;
+    height: 4px;
+    width: 88px;
+    background: #ff7800
+}
+
+.c-comparison-sticky .c-comparison-nav__platform::before {
+    position: relative;
+    margin: 20px
+}
+
+.c-comparison-sticky .c-comparison-nav__platform span {
+    display: none
+}
+
+.c-comparison-sticky .c-comparison-table tr:last-child td {
+    padding-bottom: 0
+}
+
+.c-comparison-sticky .c-comparison-table__buttons td {
+    padding: 0
+}
+
+.c-comparison-sticky .c-comparison-table__buttons td .button {
+    margin: 5px 0 15px 0
+}
+
+.c-comparison-sticky .c-comparison-table__buttons td .button span {
+    min-width: 0;
+    font-size: 12px;
+    padding: 6px 13px 4px
+}
+
+.c-comparison-sticky .c-comparison-table .c1,
+.c-comparison-sticky .c-comparison-table .c2,
+.c-comparison-sticky .c-comparison-table .c3 {
+    width: 19.2%
+}
+
+.c-comparison-sticky .c-comparison-table .c1 {
+    border-left-color: #f9f9fd
+}
+
+.c-comparison-sticky .c-comparison-table__best b {
+    font-size: 10px
+}
+
+.c-comparison-sticky .c-comparison-table__price {
+    display: inline-block
+}
+
+.c-comparison-sticky .c-comparison-table__price_current {
+    font-size: 12px;
+    color: #727888
+}
+
+.c-comparison-sticky .c-comparison-table__price_regular {
+    font-size: 10px
+}
+
+.c-comparison-sticky .c-comparison-table__products b {
+    color: #000
+}
+
+@media only screen and (max-width: 767px) {
+    .c-comparison-sticky .c-comparison-table .c1,
+    .c-comparison-sticky .c-comparison-table .c2,
+    .c-comparison-sticky .c-comparison-table .c3 {
+        width: 33.33%
+    }
+}
+
+.c-comparison-sticky__platforms .c-comparison-nav__platform {
+    border: none
+}
+
+@media only screen and (max-width: 767px) {
+    .c-comparison-sticky__platforms {
+        display: none
+    }
+}
+
+.text-center {
+    text-align: center
+}
+
+#colorbox {
+    padding: 0
+}
+
+#colorbox #cboxClose {
+    top: 25px;
+    right: 25px
+}
+
+#colorbox #cboxWrapper {
+    top: 0;
+    left: 0
+}
+
+#colorbox #cboxWrapper * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+#colorbox #cboxWrapper .span6 {
+    float: left;
+    width: 50%
+}
+
+#colorbox #cboxWrapper .span--narrow {
+    padding: 0 45px
+}
+
+#colorbox #cboxWrapper .popup-content,
+#colorbox #cboxWrapper #formPopup {
+    padding: 40px 40px 15px 40px
+}
+
+#colorbox #cboxWrapper .popup-content--form,
+#colorbox #cboxWrapper #formPopup--form {
+    padding: 20px 40px 80px 40px
+}
+
+#colorbox #cboxWrapper .popup-content--narrow,
+#colorbox #cboxWrapper #formPopup--narrow {
+    padding: 40px 130px 15px 130px
+}
+
+@media only screen and (max-width: 767px) {
+    #colorbox #cboxWrapper .popup-content,
+    #colorbox #cboxWrapper #formPopup {
+        padding: 20px
+    }
+}
+
+#colorbox #cboxWrapper .foot {
+    background-color: #F2F2F2;
+    padding: 40px
+}
+
+#colorbox #cboxWrapper .foot .span6 {
+    padding: 0 25px
+}
+
+@media only screen and (max-width: 767px) {
+    #colorbox #cboxWrapper .foot {
+        padding: 20px
+    }
+    #colorbox #cboxWrapper .foot .span6 {
+        padding: 0
+    }
+}
+
+#colorbox #cboxWrapper .vertical-align {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+#colorbox #cboxWrapper .vertical-align>[class^="span"],
+#colorbox #cboxWrapper .vertical-align>[class*="span"] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1055px),
+only screen and (max-width: 767px) {
+    #colorbox #cboxWrapper h4 {
+        padding: 20px
+    }
+    #colorbox #cboxWrapper .note {
+        margin: 20px 0
+    }
+    #colorbox #cboxWrapper .img-ui {
+        margin-bottom: 30px;
+        max-width: 90%
+    }
+    #colorbox #cboxWrapper .span--narrow {
+        padding: 0 15px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #colorbox #cboxWrapper .span6 {
+        float: none;
+        width: 100%
+    }
+    #colorbox #cboxWrapper .vertical-align {
+        display: block
+    }
+    #colorbox #cboxWrapper .button {
+        margin-bottom: 10px
+    }
+}
+
+#colorbox .form-table .inputs-wrapper {
+    padding: 30px 40px 75px 40px
+}
+
+@media only screen and (max-width: 767px) {
+    #colorbox .form-table .inputs-wrapper {
+        padding: 20px
+    }
+}
+
+#colorbox .form-table .form-group.required {
+    margin-bottom: 25px
+}
+
+#colorbox .form-table .label {
+    width: 32%;
+    margin-right: 22px;
+    display: inline-block;
+    text-align: right;
+    background: none;
+    background-repeat: none
+}
+
+#colorbox .form-table label {
+    font-size: 17px;
+    line-height: 23px;
+    color: #727888
+}
+
+#colorbox .form-table label .red {
+    color: #FC4F08;
+    margin-left: 5px
+}
+
+#colorbox .form-table .form-item {
+    height: 40px;
+    width: 44%;
+    display: inline-block
+}
+
+#colorbox .form-table input[type="text"],
+#colorbox .form-table input[type="email"] {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #979797;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #FFFFFF
+}
+
+#colorbox .form-table input[type="submit"] {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    height: 59px;
+    max-width: 100%;
+    width: 380px;
+    border: none;
+    background-color: #FF6F00;
+    -webkit-box-shadow: 0 3px 9px 0 rgba(41, 41, 51, 0.25);
+    -moz-box-shadow: 0 3px 9px 0 rgba(41, 41, 51, 0.25);
+    box-shadow: 0 3px 9px 0 rgba(41, 41, 51, 0.25);
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 16px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out
+}
+
+#colorbox .form-table input[type="submit"][disabled] {
+    opacity: .4;
+    cursor: default
+}
+
+@media only screen and (max-width: 767px) {
+    #colorbox .form-table .form-item,
+    #colorbox .form-table input[type="text"],
+    #colorbox .form-table input[type="email"],
+    #colorbox .form-table .label,
+    #colorbox .form-table label {
+        width: 100%;
+        text-align: left;
+        display: block;
+        margin-bottom: 0
+    }
+}
+
+#colorbox .form-table .form-ajax-loader {
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px
+}
+
+#colorbox .form-table .error {
+    background: #C60000 url("https://atpsoftware.vn/wp-content/themes/i/forms/tick-error.png") 16px 12px no-repeat
+}
+
+#colorbox .form-table ul.errors {
+    margin: 0;
+    padding: 0;
+    background-color: #DA2C2C;
+    list-style: none;
+    width: 100%;
+    clear: both;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-left-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    border-bottom-right-radius: 2px;
+    margin-bottom: 10px
+}
+
+#colorbox .form-table ul.errors li {
+    padding: 3px 15px 3px;
+    color: #fff
+}
+
+#colorbox .form-table .bubble {
+    position: relative;
+    padding: 0 15px 0 80px;
+    color: #FFF;
+    min-height: 66px;
+    margin: 20px
+}
+
+#colorbox .form-table .bubble h3 {
+    margin: 0;
+    padding: 12px 0 0;
+    color: #FFF;
+    font-size: 16px
+}
+
+#colorbox .form-table .bubble p {
+    margin: 0;
+    padding-bottom: 15px;
+    color: #FFF
+}
+
+#colorbox h4 {
+    padding-bottom: 70px
+}
+
+#colorbox h4.padding-less {
+    padding-bottom: 45px
+}
+
+#colorbox h5 {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 40px
+}
+
+#colorbox .highlighted {
+    padding: 0 3px;
+    background-color: #FF7800;
+    color: #fff
+}
+
+#colorbox .img-ui {
+    width: 373px;
+    max-width: 100%;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.5)
+}
+
+#colorbox ul li {
+    font-size: 18px;
+    line-height: 28px;
+    color: #000
+}
+
+#colorbox ul li.link {
+    list-style: none
+}
+
+#colorbox ul li.link a {
+    color: #FF7800;
+    text-decoration: underline
+}
+
+#colorbox p {
+    font-size: 18px
+}
+
+#colorbox .note {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px
+}
+
+#colorbox .button {
+    width: 100%
+}
+
+#colorbox .button span {
+    width: 100%;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 17px 26px 16px
+}
+
+#colorbox .business-feature-icon {
+    margin: 25px auto
+}
+
+#colorbox .recommended {
+    background: url("https://atpsoftware.vn/wp-content/themes/i/business/recommended-text.png") no-repeat right;
+    background-position-y: 15px
+}
+
+@media only screen and (max-width: 767px) {
+    #colorbox .recommended {
+        background-position-x: center;
+        background-position-y: 25px
+    }
+}
+
+#colorbox #popup-whichconsole--trial ul li {
+    line-height: 24px
+}
+
+#colorbox #popup-wantpatch--buy h4 {
+    padding-bottom: 40px
+}
+
+#colorbox #popup-wantpatch--buy .note {
+    margin-top: 15px
+}
+
+#colorbox #popup-wantpatch--buy .notice {
+    margin-top: 25px;
+    text-align: center
+}
+
+#colorbox #popup-wantpatch--buy .popup-content {
+    padding: 40px 40px 25px 40px
+}
+
+#colorbox #cboxLoadedContent.loading {
+    opacity: .4
+}
+
+#colorbox #cboxLoadedContent.loading * {
+    cursor: default
+}
+
+#colorbox .spiner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    margin: -20px 0 0 -20px;
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    -o-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    border-left: 5px solid rgba(0, 0, 0, 0.1);
+    border-right: 5px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+    border-top: 5px solid #ff9a00;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%
+}
+
+@-moz-keyframes spin {
+    from {
+        -moz-transform: rotate(0deg)
+    }
+    to {
+        -moz-transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-o-keyframes spin {
+    from {
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+.strenght-numbers {
+    position: relative;
+    background-image: url("https://atpsoftware.vn/wp-content/themes/i/smb/svg/dashed-border.svg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -webkit-backface-visibility: hidden
+}
+
+.strenght-numbers p {
+    padding: 0
+}
+
+.strenght-numbers__content {
+    display: table;
+    margin: 0;
+    height: 100%;
+    color: white
+}
+
+.strenght-numbers__number,
+.strenght-numbers__text {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.strenght-numbers__number {
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    -o-background-clip: padding-box;
+    background-clip: padding-box;
+    width: 170px;
+    height: 100%;
+    background: #F2F2F6;
+    font-size: 26px;
+    line-height: 70px;
+    font-weight: 400;
+    text-align: center;
+    color: #FF7800
+}
+
+@media only screen and (max-width: 767px) {
+    .strenght-numbers__number {
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        -o-background-clip: padding-box;
+        background-clip: padding-box;
+        width: 100px;
+        padding: 15px;
+        font-size: 22px;
+        line-height: initial
+    }
+}
+
+.strenght-numbers__text {
+    padding: 5px 20px
+}
+
+@media only screen and (max-width: 767px) {
+    .strenght-numbers {
+        margin: 0 auto 20px auto;
+        max-width: 500px
+    }
+    .strenght-numbers__content {
+        text-align: left
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .strenght-numbers__content {
+        font-size: 12px
+    }
+    .strenght-numbers__number {
+        width: 80px;
+        background: none;
+        font-size: 18px
+    }
+}
+
+.bg-white .strenght-numbers {
+    background-image: url("https://atpsoftware.vn/wp-content/themes/i/smb/svg/dashed-border-purple.svg")
+}
+
+.bg-white .strenght-numbers__content {
+    color: black
+}
+
+.bg-white .strenght-numbers__number {
+    background: #6534AC;
+    color: white
+}
+
+.news-boxes {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 80px 0 30px 0
+}
+
+@media only screen and (max-width: 767px) {
+    .news-boxes {
+        display: block
+    }
+}
+
+.news-box {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    float: left;
+    width: 33.33%
+}
+
+.news-box__content {
+    display: block;
+    margin: 0 5% 20px 5%;
+    height: 100%;
+    background: #FFF
+}
+
+.news-box__img {
+    height: 180px;
+    overflow: hidden
+}
+
+.news-box__img img {
+    width: 100%
+}
+
+@media only screen and (max-width: 767px),
+only screen and (max-width: 486px) {
+    .news-box__img {
+        height: auto
+    }
+}
+
+.news-box__txt {
+    position: relative;
+    top: -40px;
+    margin: 0 20px 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    min-height: 330px;
+    padding: 10px 20px 0;
+    background-color: #FFF
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1055px) {
+    .news-box__txt {
+        min-height: 480px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .news-box__txt {
+        min-height: auto
+    }
+}
+
+.news-box__button {
+    min-height: 80px;
+    top: -30px;
+    text-align: center
+}
+
+.news-box__button .button {
+    margin-top: 10px
+}
+
+.news-box__excerpt,
+.news-box__tag,
+.news-box__title {
+    display: block;
+    line-height: 120%;
+    text-align: left
+}
+
+.news-box__excerpt {
+    line-height: 140%;
+    color: #90909C
+}
+
+.news-box__tag {
+    padding: 15px 0 20px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #0CB754
+}
+
+.news-box__title {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    color: #90909C
+}
+
+@media only screen and (max-width: 767px) {
+    .news-box {
+        width: 100%;
+        float: none;
+        -webkit-box-flex: 0;
+        -webkit-flex: none;
+        -moz-box-flex: 0;
+        -ms-flex: none;
+        flex: none
+    }
+}
+
+.tabs {
+    padding-bottom: 120px
+}
+
+.tabs .tabs-content-item {
+    position: relative;
+    display: none
+}
+
+.tabs .tabs-content-item.active {
+    display: block
+}
+
+.tabs .tabs-nav {
+    margin-bottom: 70px;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px 0
+}
+
+.tabs .tabs-nav-item {
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    color: #90909C
+}
+
+.tabs .tabs-nav-item:nth-child(odd) {
+    border-right: 2px solid #F2F2F6
+}
+
+.tabs .tabs-nav-item.active {
+    cursor: auto;
+    color: #FF7800
+}
+
+.tabs .tabs-nav-item.active::before,
+.tabs .tabs-nav-item.active::after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    margin-top: 20px;
+    pointer-events: none
+}
+
+.tabs .tabs-nav-item.active::before {
+    border-color: rgba(255, 22, 22, 0);
+    border-top-color: rgba(0, 0, 0, 0.1);
+    border-width: 32px;
+    margin-left: -32px
+}
+
+.tabs .tabs-nav-item.active::after {
+    border-color: rgba(255, 22, 22, 0);
+    border-top-color: #FFF;
+    border-width: 30px;
+    margin-left: -30px
+}
+
+.tabs .tabs-nav-item:hover {
+    color: #FF7800
+}
+
+.faq {
+    height: 470px;
+    padding-bottom: 50px;
+    overflow-y: auto;
+    overflow-x: hidden
+}
+
+.faq h4 {
+    padding-bottom: 10px;
+    font-size: 20px
+}
+
+.faq::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    top: 0;
+    width: 100%;
+    height: 20px;
+    background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.1) 0, #FFF 100%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, 0.1)), to(#FFF));
+    background: -moz- oldlinear-gradient(bottom, rgba(255, 255, 255, 0.1) 0, #FFF 100%);
+    background: -o-linear-gradient(bottom, rgba(255, 255, 255, 0.1) 0, #FFF 100%);
+    background: linear-gradient(bottom, rgba(255, 255, 255, 0.1) 0, #FFF 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#1affffff', GradientType=0);
+    -ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#1affffff', GradientType=0)
+}
+
+.faq::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1) 0, #FFF 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0.1)), to(#FFF));
+    background: -moz- oldlinear-gradient(top, rgba(255, 255, 255, 0.1) 0, #FFF 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0.1) 0, #FFF 100%);
+    background: linear-gradient(top, rgba(255, 255, 255, 0.1) 0, #FFF 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#1affffff', endColorstr='#ffffffff', GradientType=0);
+    -ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#1affffff', endColorstr='#ffffffff', GradientType=0)
+}
+
+.faq .row [class*='span'] {
+    padding: 25px
+}
+
+.faq .row .span12 {
+    padding: 0 15% 50px 15%
+}
+
+.c-system-requirements {
+    min-height: 470px
+}
+
+.awards {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 50px
+}
+
+.awards_no-border {
+    border: none;
+    padding-top: 120px
+}
+
+.awards [class*="span"] {
+    padding: 5px
+}
+
+@media only screen and (min-width: 1056px),
+only screen and (min-width: 768px) and (max-width: 1055px) {
+    .awards_5col [class*="span"] {
+        width: 20%
+    }
+}
+
+.awards .award {
+    text-align: left;
+    position: relative;
+    height: 120px;
+    display: table
+}
+
+.awards .award__icon {
+    padding-left: 150px;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.awards .award__icon::before {
+    background: url("https://atpsoftware.vn/wp-content/themes/i/smb/awards-sprite.png") no-repeat;
+    content: " ";
+    display: block;
+    width: 140px;
+    top: 12px;
+    left: 0;
+    position: absolute;
+    height: 80px;
+    background-position: 15px 0
+}
+
+.awards .award__icon_av::before {
+    background-position: 10px 0
+}
+
+.awards .award__icon_avtest::before {
+    background-position: -355px 0
+}
+
+.awards .award__icon_capterra::before {
+    background-position: -170px 0
+}
+
+@media only screen and (max-width: 767px) {
+    .awards .award {
+        display: block;
+        padding: 0 10%;
+        margin: 15px;
+        text-align: center
+    }
+    .awards .award__icon {
+        padding-left: 0;
+        display: block
+    }
+    .awards .award__icon::before {
+        position: static;
+        margin: 0 auto;
+        margin-bottom: 20px
+    }
+    .awards .award__icon_av::before {
+        background-position: -8px 0
+    }
+    .awards .award__icon_avtest::before {
+        margin-bottom: 0
+    }
+}
+
+.awards .award_vertical {
+    display: block;
+    min-height: 120px
+}
+
+.awards .award_vertical_icon {
+    display: block;
+    height: 80px;
+    margin: 0 auto 15px auto;
+    text-align: center
+}
+
+.awards .award_vertical_icon::before {
+    content: "";
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    background: url("https://atpsoftware.vn/wp-content/themes/i/smb/awards-sprite-v2.png") no-repeat
+}
+
+.awards .award_vertical_icon_av::before {
+    background-position: -10px -209px;
+    width: 80px
+}
+
+.awards .award_vertical_icon_avtest::before {
+    background-position: -10px -109px;
+    width: 132px
+}
+
+.awards .award_vertical_icon_capterra::before {
+    background-position: -232px -10px;
+    width: 118px
+}
+
+.awards .award_vertical_icon_frost-sullivan::before {
+    background-position: -10px -10px;
+    width: 202px
+}
+
+.awards .award_vertical_icon_tech-radar::before {
+    background-position: -225px -113px;
+    width: 100px
+}
+
+.awards .award_vertical_icon+p {
+    width: 80%;
+    margin: 0 auto
+}
+
+.awards .award_vertical a {
+    color: inherit;
+    border-bottom: 1px dotted #727888
+}
+
+.product-buytrial {
+    text-align: center
+}
+
+.product-buytrial_buttons {
+    margin-top: 14px
+}
+
+.product-buytrial_buttons .button {
+    margin: 14px
+}
+
+.product-buytrial__boxshot {
+    position: relative;
+    margin: 0 auto 30px auto;
+    width: 250px;
+    max-width: 100%;
+    padding-bottom: 40px
+}
+
+.product-buytrial__boxshot img {
+    width: 100%
+}
+
+.product-buytrial__boxshot .svg-badge {
+    position: absolute;
+    right: -60px;
+    bottom: 0;
+    width: 140px;
+    max-width: 100%
+}
+
+@media only screen and (max-width: 767px) {
+    .product-buytrial__boxshot .svg-badge {
+        right: -10px;
+        bottom: 30px;
+        width: 120px
+    }
+}
+
+.product-buytrial__column {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.product-buytrial .label-sticker {
+    top: -20px
+}
+
+.product-buytrial__note {
+    margin-top: 30px;
+    color: #ADB2B6
+}
+
+.product-buytrial__subh {
+    font-size: 20px;
+    line-height: 1.3636
+}
+
+.product-buytrial__title {
+    font-size: 32px
+}
+
+@media only screen and (max-width: 767px) {
+    .product-buytrial__title {
+        margin-top: 30px
+    }
+}
+
+.product-buytrial ul {
+    padding: 0 40px
+}
+
+.product-buytrial ul>li {
+    list-style-type: none;
+    font-size: 18px;
+    text-align: left
+}
+
+.product-buytrial ul>li::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    margin: 5px 0 0 -30px;
+    width: 16px;
+    height: 16px;
+    background: url("https://atpsoftware.vn/wp-content/themes/i/smb/tick-gray.png") no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain
+}
+
+.testimonials-slider {
+    display: table-row
+}
+
+.testimonials-slider__author {
+    font-size: 20px
+}
+
+.testimonials-slider__company {
+    display: block;
+    min-height: 44px;
+    color: #D3D4DE
+}
+
+.testimonials-slider__controls {
+    width: 10%
+}
+
+.testimonials-slider__control {
+    display: block;
+    border: solid #D3D4DE;
+    border-width: 0 2px 2px 0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer
+}
+
+.testimonials-slider__control_disabled {
+    opacity: .3;
+    cursor: auto
+}
+
+.testimonials-slider__control_left {
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    float: left
+}
+
+.testimonials-slider__control_right {
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    float: right
+}
+
+.testimonials-slider__control span {
+    visibility: hidden
+}
+
+.testimonials-slider>div {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.testimonials-slider__flag {
+    display: block;
+    width: 100px;
+    margin: 0 auto 20px auto
+}
+
+.testimonials-slider__item {
+    float: left;
+    width: 33.33%;
+    min-height: 480px;
+    padding: 30px
+}
+
+.testimonials-slider__item_1 {
+    width: 100%;
+    min-height: 380px
+}
+
+.testimonials-slider__item_2 {
+    width: 50%
+}
+
+.testimonials-slider__items {
+    width: 80%
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1055px) {
+    .testimonials-slider__item {
+        padding: 15px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .testimonials-slider__control {
+        display: none !important
+    }
+    .testimonials-slider__item {
+        float: none;
+        width: 100%;
+        min-height: inherit;
+        padding: 30px
+    }
+}
+
+@media only screen and (min-width: 1056px),
+only screen and (min-width: 768px) and (max-width: 1055px) {
+    .hero-banner {
+        background-image: url("https://atpsoftware.vn/wp-content/themes/i/smb/banners/banner-avast-man-with-headphones.jpg")
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .hero-banner {
+        background-color: #353e54 !important
+    }
+}
+
+
+/*# sourceMappingURL=business-antivirus-pro-plus.css.map */

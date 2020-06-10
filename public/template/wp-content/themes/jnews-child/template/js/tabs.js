@@ -1,0 +1,2 @@
+"use strict";$(document).ready(function(){$(".tabs-nav-item").on("click",function(){var a=$(this).attr("data-tab");$(".tabs-nav-item, .tabs-content-item").removeClass("active").each(function(b,c){$(c).attr("data-tab")===a&&$(c).addClass("active")})})});
+//# sourceMappingURL=tabs.js.map
